@@ -26,7 +26,7 @@ function saveB() {
     let saveEl = document.getElementById("save-el")
     countstr = count + " - " 
     // 3. Render the variable in the saveEl using innerText
-    saveEl.innerText+= countstr
+    saveEl.textContent+= countstr
     // NB: Make sure to not delete the existing content of the paragraph
     console.log(count)
 }
